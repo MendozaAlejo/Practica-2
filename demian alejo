@@ -1,0 +1,24 @@
+primer paso: loguearnos
+git config --global user.name (nuestro nombre de usuario)
+git config --global user.email (nuentro gmail)
+
+segundo paso: iniciar un repositorio
+git init
+
+tercer paso: revisar el destino, borrar el anterior destino, poner nuestro destino
+git remote -v
+git remote remove origin
+git remote add origin (nuestro link)
+
+
+revisa el estado
+git status
+
+cuarto paso: empazamos a guardar
+git add (prepara para guardar el achivo) 
+git commit -m "mensaje que queremos enviar)
+git branch -m main (crea la rama)
+git push origin main
+
+
+
